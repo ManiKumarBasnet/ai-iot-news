@@ -19,3 +19,31 @@ A self-updating static site that delivers daily AI, IoT, Embedded, Blockchain, a
 
 ```bash
 python build.py
+This will:
+
+Fetch news from RSS
+
+Generate HTML for today
+
+Update the homepage with today's news
+
+🌐 Deployment
+Use GitHub Pages to host for free:
+
+Push to a GitHub repo
+
+Go to Settings → Pages → Set source to main and folder to /root
+
+URL will be something like:
+https://yourusername.github.io/ai-iot-news/news/2025-08-04.html
+
+🔮 Features Roadmap
+ Dark mode toggle
+
+ Games page with educational tools
+
+ Ads/affiliate integration
+
+ Offline news archive viewer
+
+ Email/newsletter support
