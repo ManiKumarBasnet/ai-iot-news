@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🗞️ AI–IoT–Tech News Digest</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🗞️ Welcome to the AI–IoT News Hub</h1>
+    <p style="font-size:17px;">
+      Daily updates on AI, IoT, Embedded, Blockchain, Tech, and Bhutan news — 
+      curated locally by your automated Python bot.
+    </p>
+    <hr>
+    <h2>📅 Latest Issue</h2>
+    <p style="font-size:16px;">Click below to read today's update:</p>
+    <p>
+      <a id="news-link" href="#">🔗 Loading latest edition...</a>
+    </p>
+  </div>
+
+  <script>
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById("news-link").href = `news/${today}.html`;
+    document.getElementById("news-link").innerText = `🗞️ View News for ${today}`;
+  </script>
+</body>
+</html>
